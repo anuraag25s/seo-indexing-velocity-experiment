@@ -1,0 +1,21 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "LocalBusiness",
+        "name": "Example Business Node",
+        "description": "Optimized entity for local indexing velocity test.",
+        "url": "https://example.com/growth-loop-node-1"
+      }
+    }
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://example.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
